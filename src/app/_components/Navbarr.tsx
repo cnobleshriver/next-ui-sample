@@ -20,7 +20,7 @@ export default function Navbarr() {
       className="fixed top-0 z-50 w-full bg-color-primary-100"
     >
       <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+        <NavbarMenuToggle className="bg-color-primary-400" aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
       </NavbarContent>
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
