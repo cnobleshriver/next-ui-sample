@@ -8,8 +8,7 @@ export default function Home() {
   return (
     <NextUIProvider>
       <Navbarr />
-      <div className='w-screen h-screen bg-color-primary-900'></div>
-      <div className='w-screen h-screen bg-color-primary-900'></div>
+      {/* <div className='w-screen h-screen bg-color-primary-900'></div> */}
     </NextUIProvider>
   );
 }

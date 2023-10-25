@@ -17,10 +17,10 @@ export default function Navbarr() {
       isBordered
       isMenuOpen={isMenuOpen}
       onMenuOpenChange={setIsMenuOpen}
-      className="fixed top-0 z-50 w-full bg-color-primary-100"
+      // className="fixed top-0 z-50 w-full"
     >
       <NavbarContent className="sm:hidden" justify="start">
-        <NavbarMenuToggle className="bg-color-primary-400" aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
+        <NavbarMenuToggle aria-label={isMenuOpen ? "Close menu" : "Open menu"} />
       </NavbarContent>
 
       <NavbarContent className="sm:hidden pr-3" justify="center">
@@ -50,7 +50,7 @@ export default function Navbarr() {
         </NavbarItem>
       </NavbarContent>
 
-      <NavbarContent justify="end">
+      {/* <NavbarContent justify="end">
         <NavbarItem className="hidden lg:flex">
           <Button isIconOnly className="bg-color-primary-300">
             T
@@ -66,7 +66,7 @@ export default function Navbarr() {
             Y
           </Button>
         </NavbarItem>
-      </NavbarContent>
+      </NavbarContent> */}
 
       <NavbarMenu>
         {menuItems.map((item, index) => (
